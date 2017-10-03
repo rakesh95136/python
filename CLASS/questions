@@ -1,0 +1,94 @@
+
+
+---LIST----
+
+#Wirte a program to print True if the first element or last element is divisible by 4 in the given list
+
+#Write a program to print True if the first and last elements are equal and odd numbers in the given list
+
+#Write a program to print True if the sum of the first and last element are equal from the given two lists
+
+#Write a program to print the sum of all the element in the given list.
+
+#Write a program to sort a list of integer element
+
+#Write a program to print a new list by doing a left rotate on the given list.
+# Ex input: [4,5,6,7]  output: [5,6,7,4]
+
+Write a program to find the maximum number from the given list of numbers and replace all the numbers from the list with maximum 
+number
+
+Given two list x and y, print new list as output which includes all the elements of x and y except 
+for the first and last elements
+
+Write a program to print True if the given list contains multiple of 4 or 8
+
+--SHALLOW COPYING--------
+
+Given a list 
+colours1 = ['red','green'] with the help of a new list, modify the list colors1, such that
+colours1 = ["red","blue"]
+
+
+Given a list
+list1 = ['a','b','c','d'] with the help of 'slice' construct and a new list, make changes in list1, such that 
+list1=['a','x','c','d']. Verify if the original list is modified.
+
+
+Given a list, lst1 = ['a','b',['ab','ba']] with the help of 'slice' construct and a new list, modifylst1 such that
+lst1 = ['a','b',['ab','d']]
+
+---DEEP COPYING------------------------
+
+GIven a list
+lst1 = ['a','b',['ab','ba']]
+Use the function deepcopy and a new list to make changes in the lst2. Verify if the list is modified
+
+
+Given a listlst1 = ['a','b',['ab','ba']]
+Use the function 'copy' and a new list to make changes in the lst2. Verify if the list is modified
+
+
+--STRING--
+
+Write a program to reverse a string
+
+Write a program to print a new string which contains 4 copies of the last three characters from the given string.
+
+Write a program to print the output string which contains last half + first half of the given string. The given string is of even length.
+
+Given a string, print the output string by removing the first and last character of the string.
+
+Given two strings of different length and print output string as shortest string + largest string + shortest string
+
+Given a string, write a program which rotates left 2 and prints the output below.
+Ex input : Hello
+output : lloHe
+
+Concatente two given strings by omitting the first character
+
+Write a program to count the number of occurrences of each character in a given string
+
+Write a program to convert all the vowels to uppercase for the given input string.
+
+Write a program to reverse the given input list
+
+Write a program to count number of occurrences of vowels in a given string
+
+Write a program to convert lower case to upper case letter?
+
+Write a program to print the longest length string from given input list of strings.
+
+---------Number-------------------------
+Write a program to find if a given number is prime or not
+Write a program to find the factorail of given number
+Write a program to construct two dimensional array and print the same
+Write a program to convert base 10 to base 2, base 8, base 16 number systems.
+
+
+
+
+
+
+
+
