@@ -3,5 +3,11 @@ git status
 git add
 git commit -m "comments"
 git remote add orogin 
+git push -u origin master
+git log
+git --help
+
+
+https://github.com/rakesh95136/python.git
 
 
