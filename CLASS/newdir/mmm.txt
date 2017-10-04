@@ -1,0 +1,12 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 0006-690F
+
+ Directory of C:\Users\admin\Dropbox\PYTHON\CLASS\newdir
+
+10/04/2017  12:41 PM    <DIR>          .
+10/04/2017  12:41 PM    <DIR>          ..
+10/04/2017  12:42 PM                 0 mmm.txt
+10/04/2017  12:41 PM               459 nnn.txt
+10/04/2017  12:31 PM                 8 tempo
+               3 File(s)            467 bytes
+               2 Dir(s)  209,086,898,176 bytes free

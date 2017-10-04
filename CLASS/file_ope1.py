@@ -1,7 +1,10 @@
 import os
+import shutil
 '''
 1) Create a directory with name "newdir" and create a file "templo" in the new dirctory "newdir"
 2) Rename a file in a particular directory
+	Rename all the files in particular folder in a your computer; take backup before you re name the files.
+
 3) List all the files from a given path and verify the file text.file exists or not? If the file does not exit create it.
 4) Write a program to ccount each word from the given file.
 5) Write a program to retrieve the words XYZ and ABC from a given file
@@ -10,7 +13,7 @@ import os
 8) Remove all the empty directories from a given path
 9) Get file size, inode, owners of a each file in a given path
 '''
-
+'''
 #1) Create a directory with name "newdir" and create a file "tempo" in the new dirctory "newdir"
 
 path = "./newdir"
@@ -18,8 +21,29 @@ path = "./newdir"
 if not os.path.exists(path):
 	os.mkdir(path)
 
-filename = ./tempo"
+filename = "./tempo"
 
-print(os.path.dirname(path))
+f = open(os.path.join(path,filename), 'w')
 
+f.write('anything')
+
+f.close()
+
+
+c = open(os.path.join(path,filename), 'r')
+
+ff = c.read()
+
+for i in ff:
+	print(i)
+
+c.close() 
+'''
+
+#2) Rename a file in a particular directory
+
+path = "./newdir"
+
+if os.path.exists(path):
+	print(os.path(path))
 
