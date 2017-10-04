@@ -45,5 +45,5 @@ c.close()
 path = "./newdir"
 
 if os.path.exists(path):
-	print(os.path(path))
+	print('YES')
 
