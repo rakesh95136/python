@@ -17,23 +17,14 @@ import shutil
 #1) Create a directory with name "newdir" and create a file "tempo" in the new dirctory "newdir"
 
 path = "./newdir"
-
 if not os.path.exists(path):
 	os.mkdir(path)
-
 filename = "./tempo"
-
 f = open(os.path.join(path,filename), 'w')
-
 f.write('anything')
-
 f.close()
-
-
 c = open(os.path.join(path,filename), 'r')
-
 ff = c.read()
-
 for i in ff:
 	print(i)
 
@@ -43,7 +34,26 @@ c.close()
 #2) Rename a file in a particular directory
 
 path = "./newdir"
+filename = "./tempo"
+filename1 = "./tempo_backup"
+
+src_path = path+filename
+dst_path = path+filename1
+
 
 if os.path.exists(path):
-	print('YES')
+	if os.path.isfile(src_path):
+		shutil.copy(src_path, dst_path)
+		os.rename(src_path,path + "./tempo-hello"
+	else:
+		pass
+
+
+
+
+
+
+
+
+
 
