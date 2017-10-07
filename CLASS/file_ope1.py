@@ -1,12 +1,13 @@
 import os
 import shutil
+from os import walk
 '''
 1) Create a directory with name "newdir" and create a file "templo" in the new dirctory "newdir"
 2) Rename a file in a particular directory
 	Rename all the files in particular folder in a your computer; take backup before you re name the files.
 
 3) List all the files from a given path and verify the file text.file exists or not? If the file does not exit create it.
-4) Write a program to ccount each word from the given file.
+4) Write a program to count each word from the given file.
 5) Write a program to retrieve the words XYZ and ABC from a given file
 6) Write a program to get some keywords from a file.
 7) Get the current working directory and navigate to some other directory and verify navigation is successful or not.
@@ -29,7 +30,7 @@ for i in ff:
 	print(i)
 
 c.close() 
-'''
+
 
 #2) Rename a file in a particular directory
 
@@ -44,16 +45,46 @@ dst_path = path+filename1
 if os.path.exists(path):
 	if os.path.isfile(src_path):
 		shutil.copy(src_path, dst_path)
-		os.rename(src_path,path + "./tempo-hello"
-	else:
-		pass
+		os.rename(src_path,path + "./tempo-hello")
+	
 
 
 
+#3) List all the files from a given path and verify the file test.txt file exists or not? If the file does not exit create it.
+
+path = "./newdir/DIR-A"
+
+for(a,b,c) in walk(path):
+	for i in c:
+		if i == 'test.txt':
+			break
+		else:
+		    x = open(path+"./test.txt", 'w')
+		    x.write('Helloooooo')
+
+'''
 
 
+#4) Write a program to count each word from the given file.
+path = "./newdir"
 
+'''
+for(a,b,c) in walk(path):
+    for i in c:
+	if (i == 'mmm.txt'):
+		print(i)
+'''	
 
-
-
+path = "./CLASS/newdir"
+for(a,b,c) in walk(path):
+	for i in c:
+		if(i == 'mmm.txt'):
+			p = path + "/"+i
+			d = open(p,'r')
+			vv = d.read()
+			count = 0
+			for k in vv:
+				count += 1
+				print(count)
+			
 
