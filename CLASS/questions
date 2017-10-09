@@ -51,33 +51,33 @@ Use the function 'copy' and a new list to make changes in the lst2. Verify if th
 
 --STRING--
 
-Write a program to reverse a string
+1) Write a program to reverse a string
 
-Write a program to print a new string which contains 4 copies of the last three characters from the given string.
+2) Write a program to print a new string which contains 4 copies of the last three characters from the given string.
 
-Write a program to print the output string which contains last half + first half of the given string. The given string is of even length.
+3) Write a program to print the output string which contains last half + first half of the given string. The given string is of even length.
 
-Given a string, print the output string by removing the first and last character of the string.
+4) Given a string, print the output string by removing the first and last character of the string.
 
-Given two strings of different length and print output string as shortest string + largest string + shortest string
+5) Given two strings of different length and print output string as shortest string + largest string + shortest string
 
-Given a string, write a program which rotates left 2 and prints the output below.
+6) Given a string, write a program which rotates left 2 and prints the output below.
 Ex input : Hello
 output : lloHe
 
-Concatente two given strings by omitting the first character
+7) Concatente two given strings by omitting the first character
 
-Write a program to count the number of occurrences of each character in a given string
+8) Write a program to count the number of occurrences of each character in a given string
 
-Write a program to convert all the vowels to uppercase for the given input string.
+9) Write a program to convert all the vowels to uppercase for the given input string.
 
-Write a program to reverse the given input list
+10) Write a program to reverse the given input list
 
-Write a program to count number of occurrences of vowels in a given string
+11) Write a program to count number of occurrences of vowels in a given string
 
-Write a program to convert lower case to upper case letter?
+12) Write a program to convert lower case to upper case letter?
 
-Write a program to print the longest length string from given input list of strings.
+13) Write a program to print the longest length string from given input list of strings.
 
 ---------Number-------------------------
 Write a program to find if a given number is prime or not
