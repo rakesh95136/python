@@ -58,7 +58,7 @@ print(s[j:])
 #Given a string, print the output string by removing the first and last character of the string.
 s = '12345'
 print(s[:1])  #Print first character
-print(s[4:]) #print last ccharacter
+print(s[-1:]) #print last ccharacter
 
 #Given a string, write a program which rotates left 2 and prints the output below.
 #Ex input : Hello

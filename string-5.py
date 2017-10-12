@@ -1,0 +1,1 @@
+#5) Given two strings of different length and print output string as shortest string + largest string + shortest string
